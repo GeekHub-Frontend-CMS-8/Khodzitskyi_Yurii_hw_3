@@ -1,5 +1,6 @@
+/*Form styles*/
 .forms-wrapper{
-    width: 700px;
+    max-width: 700px;
     margin:auto;
 }
 #age-first-form {
@@ -7,4 +8,19 @@
 }
 .long-input-string {
     width: 250px;
+}
+
+
+/*Table styles*/
+.first-table-wrapper {
+    max-width: 900px;
+    margin:30px auto;
+}
+table, td, th {
+    border: 1px solid black;
+}
+
+.second-table-wrapper {
+    max-width: 700px;
+    margin: auto;
 }
