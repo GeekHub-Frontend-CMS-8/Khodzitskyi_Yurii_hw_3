@@ -7,8 +7,8 @@
 </head>
 <body>
 <div class="forms-wrapper">
-<!--First Form-->
     <form>
+<!--First fieldset-->
         <fieldset>
             <legend>
                 <Strong>
@@ -18,13 +18,13 @@
             <label for="First-name">
                 Имя:
             </label>
-            <input type="text" id="First-name">
+            <input type="text" name="Second-name" id="First-name">
             <br>
 
             <label for="Second-name">
                 Фамилия:
             </label>
-            <input type="text" id="Second-name">
+            <input type="text" name="Second-name" id="Second-name">
             <br>
 
             <label>
@@ -45,6 +45,142 @@
             </label>
             <input type="number" name="age-first-form" id="age-first-form">лет
         </fieldset>
+<!--Second fieldset-->
+        <fieldset>
+            <legend>
+                <strong>
+                    Подробнее о себе
+                </strong>
+            </legend>
+            <input type="radio" name="gender-second-form" value="man" id="radio-man-second-form" checked>
+            <label for="radio-man-second-form">
+                Молодой человек
+            </label>
+            <br>
+
+            <input type="radio" name="gender-second-form" value="woman" id="radio-woman-second-form">
+            <label for="radio-woman-second-form">
+                Девушка
+            </label>
+            <br>
+
+            <input type="date" name="birthday-date" id="birthday-date">
+            <label for="birthday-date">
+                Дата рождения
+            </label>
+            <br>
+
+            <input type="text" name="marital-status" id="marital-status">
+            <label for="marital-status">
+                Семейное положение
+            </label>
+            <br>
+
+            <input type="text" name="social-status" id="social-status">
+            <label for="social-status">
+                Социальный статус
+            </label>
+            <br>
+
+            <input type="text" name="inhabitation" id="inhabitation">
+            <label for="inhabitation">
+                Местожительство
+            </label>
+            <br>
+
+            <label>
+                <strong>
+                Что вы обычно делаете на выходных:
+                </strong>
+            </label>
+            <br>
+<!--Checkbox-->
+            <input type="checkbox" name="free-time-checkbox" id="checkbox-sleep" value="sleep">
+            <label for="checkbox-sleep">
+                Сплю
+            </label>
+            <br>
+
+            <input type="checkbox" name="free-time-checkbox" id="checkbox-walk-with-friends" value="friends">
+            <label for="checkbox-walk-with-friends">
+                Гуляю с друзьями
+            </label>
+            <br>
+
+            <input type="checkbox" name="free-time-checkbox" id="checkbox-fishing" value="fishing">
+            <label for="checkbox-fishing">Хожу на рыбалку</label>
+            <br>
+
+            <input type="checkbox" name="free-time-checkbox" id="checkbox-play-games" value="games">
+            <label for="checkbox-play-games">Играю в игры</label>
+            <br>
+<!--End of Checkbox block-->
+<!--Select-->
+            <label for="first-select-input">
+                <strong>
+                    Рассказать о формах в книге, посвященной HTML:
+                </strong>
+            </label>
+            <br>
+            <select name="first-select-input" id="first-select-input">
+                <option>
+                    Select frequency:
+                </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+<!--End of Select-->
+<!--Radio button-->
+            <label>
+                <strong>
+                    Сколько книг вы прочитали за свою жизнь:
+                </strong>
+                <br>
+            </label>
+            <input type="radio" name="quantity-of-books" value="0-10" id="books-0-10">
+            <label for="books-0-10">
+                0-10
+            </label>
+            <br>
+
+            <input type="radio" name="quantity-of-books" value="11-20" id="books-11-20">
+            <label for="books-11-20">
+                11-20
+            </label>
+            <br>
+
+            <input type="radio" name="quantity-of-books" value="21-50" id="books-21-50">
+            <label for="books-21-50">
+                21-50
+            </label>
+            <br>
+
+            <input type="radio" name="quantity-of-books" value="50+" id="books-50+">
+            <label for="books-50+">
+                50+
+            </label>
+            <br>
+<!--Textarea block-->
+            <label for="comments">
+                <strong>
+                    Ваши комментарии:
+                </strong>
+                <br>
+            </label>
+            <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+            <br>
+<!--Select with size-->
+            <label for="sized-select-id"></label>
+            <select name="sized-select-name" id="sized-select-id" size="3">
+                <option value="Firts-position">Первая позиция</option>
+                <option value="Second-position" selected>Вторая позиция</option>
+                <option value="Third-position">Третья позиция</option>
+            </select>
+        </fieldset>
+
     </form>
 </div>
 </body>
