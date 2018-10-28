@@ -16,8 +16,12 @@
     max-width: 900px;
     margin:30px auto;
 }
-table, td, th {
+table {
     border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    padding: 3px;
 }
 
 .second-table-wrapper {
@@ -28,6 +32,6 @@ table, td, th {
     max-width: 700px;
     margin:30px auto;
 }
-.third-table-wrapper table,td,th{
+.third-table-wrapper table{
     border-collapse: collapse;
 }
