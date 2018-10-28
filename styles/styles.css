@@ -24,3 +24,10 @@ table, td, th {
     max-width: 700px;
     margin: auto;
 }
+.third-table-wrapper {
+    max-width: 700px;
+    margin:30px auto;
+}
+.third-table-wrapper table,td,th{
+    border-collapse: collapse;
+}
