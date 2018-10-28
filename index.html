@@ -95,24 +95,28 @@
             </label>
             <br>
 <!--Checkbox-->
-            <input type="checkbox" name="free-time-checkbox" id="checkbox-sleep" value="sleep">
+            <input type="checkbox" name="free-time-checkbox-sleep" id="checkbox-sleep" value="sleep">
             <label for="checkbox-sleep">
                 Сплю
             </label>
             <br>
 
-            <input type="checkbox" name="free-time-checkbox" id="checkbox-walk-with-friends" value="friends">
+            <input type="checkbox" name="free-time-checkbox-walk" id="checkbox-walk-with-friends" value="friends">
             <label for="checkbox-walk-with-friends">
                 Гуляю с друзьями
             </label>
             <br>
 
-            <input type="checkbox" name="free-time-checkbox" id="checkbox-fishing" value="fishing">
-            <label for="checkbox-fishing">Хожу на рыбалку</label>
+            <input type="checkbox" name="free-time-checkbox-fish" id="checkbox-fishing" value="fishing">
+            <label for="checkbox-fishing">
+                Хожу на рыбалку
+            </label>
             <br>
 
-            <input type="checkbox" name="free-time-checkbox" id="checkbox-play-games" value="games">
-            <label for="checkbox-play-games">Играю в игры</label>
+            <input type="checkbox" name="free-time-checkbox-game" id="checkbox-play-games" value="games">
+            <label for="checkbox-play-games">
+                Играю в игры
+            </label>
             <br>
 <!--End of Checkbox block-->
 <!--Select-->
@@ -175,12 +179,92 @@
 <!--Select with size-->
             <label for="sized-select-id"></label>
             <select name="sized-select-name" id="sized-select-id" size="3">
-                <option value="Firts-position">Первая позиция</option>
-                <option value="Second-position" selected>Вторая позиция</option>
-                <option value="Third-position">Третья позиция</option>
+                <option value="Firts-position">
+                    Первая позиция
+                </option>
+                <option value="Second-position" selected>
+                    Вторая позиция
+                </option>
+                <option value="Third-position">
+                    Третья позиция
+                </option>
             </select>
         </fieldset>
+ <!--Third fieldset-->
+        <fieldset>
+            <legend>
+                <strong>
+                    И в заключении
+                </strong>
+            </legend>
+            <label for="text-with-placeholder"></label>
+            <input type="text" placeholder="Это поле было введено до вас" id="text-with-placeholder" class="long-input-string">
+            <br>
 
+            <label for="email-id">
+                <strong>
+                    Email:
+                </strong>
+            </label>
+            <br>
+<!--Email-->
+            <input type="email" name="email" class="long-input-string">
+            <br>
+
+            <strong>
+                Хотите подписаться на самую модную рассылку спама?
+            </strong>
+            <br>
+<!--Checkbox-->
+            <label>
+                <em>
+                    Выберите категории
+                </em>
+            </label>
+            <br>
+            <input type="checkbox" name="spam-equipment" value="equipment" id="spam-equipment">
+            <label for="spam-equipment">
+                Оборудование
+            </label>
+            <br>
+
+            <input type="checkbox" name="spam-dinner" value="dinner" id="spam-dinner">
+            <label for="spam-dinner">
+                Как приготовить обеды
+            </label>
+            <br>
+            
+            <input type="checkbox" name="spam-million" value="million" id="spam-million">
+            <label for="spam-million">
+                Заработай миллион за два дня!
+            </label>
+            <br>
+<!--Radio button-->
+            <label>
+                <strong>
+                    На сколько сложная задача:
+                </strong>
+            </label>
+            <br>
+
+            <input type="radio" name="radio-difficult" value="easy" id="difficult-easy" checked>
+            <label for="difficult-easy">
+                Совсем нет
+            </label>
+            <br>
+
+            <input type="radio" name="radio-difficult" value="middle" id="difficult-middle">
+            <label for="difficult-middle">
+                Так себе
+            </label>
+            <br>
+
+            <input type="radio" name="radio-difficult" value="hard" id="difficult-hard">
+            <label for="difficult-hard">
+                Еле справились
+            </label>
+        </fieldset>
+        <input type="submit">
     </form>
 </div>
 </body>
