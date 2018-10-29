@@ -9,6 +9,10 @@
 .long-input-string {
     width: 250px;
 }
+ul {
+    list-style: none;
+    padding: 0px;
+}
 
 
 /*Table styles*/
