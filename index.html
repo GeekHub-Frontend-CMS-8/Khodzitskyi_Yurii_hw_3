@@ -44,10 +44,12 @@
                     </label>
                 </li>
 
-                <label for="age-first-form">
-                    Возраст:
-                </label>
-                <input type="number" name="age-first-form" id="age-first-form">лет
+                <li>
+                    <label for="age-first-form">
+                        Возраст:
+                    </label>
+                    <input type="number" name="age-first-form" id="age-first-form">лет
+                </li>
             </ul>
         </fieldset>
 <!--Second fieldset-->
@@ -193,15 +195,19 @@
                 </li>
             </ul>
 <!--Textarea block-->
-                <label for="comments">
-                    <strong>
-                        Ваши комментарии:
-                    </strong>
-                </label>
-            <div>
-                <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
-            </div>
-<!--Select with size-->
+            <ul>
+                <li>
+                    <label for="comments">
+                        <strong>
+                            Ваши комментарии:
+                        </strong>
+                    </label>
+                </li>
+                <li>
+                    <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+                </li>
+            </ul>
+<!--Select with attr "size"-->
             <label for="sized-select-id"></label>
             <select name="sized-select-name" id="sized-select-id" size="3">
                 <option value="Firts-position">
@@ -239,11 +245,11 @@
                 </li>
             </ul>
 <!--Checkbox-->
-            <div>
+            <p>
                 <strong>
                     Хотите подписаться на самую модную рассылку спама?
                 </strong>
-            </div>
+            </p>
                 <label>
                     <em>
                        Выберите категории
